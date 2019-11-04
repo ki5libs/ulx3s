@@ -205,21 +205,6 @@ Text GLabel 5400 3950 2    60   Input ~ 0
 LED7
 Text Label 2100 2750 0    60   ~ 0
 BTNPUL
-$Comp
-L ssd_13xx:SSD_13xx OLED1
-U 1 1 58E6D4AC
-P 4750 1550
-F 0 "OLED1" H 4750 1150 50  0000 C CNN
-F 1 "SSD_1331" H 4750 1050 50  0000 C CNN
-F 2 "oled:oled_13xx" V 4750 1350 50  0001 C CNN
-F 3 "https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view" H 4750 1350 50  0001 C CNN
-F 4 "www.displaymodule.com" H 4750 1550 60  0001 C CNN "MNF1_URL"
-F 5 "DM-OLEDC095-626" H 4750 1550 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 4750 1550 60  0001 C CNN "Mouser_URL"
-F 7 "Leave empty" H 4750 1550 60  0001 C CNN "Note"
-	1    4750 1550
-	0    1    1    0   
-$EndComp
 Text GLabel 5650 4600 2    60   Input ~ 0
 FTDI_nSLEEP
 $Comp
@@ -836,5 +821,20 @@ F 8 "FV005" H 5500 4600 50  0001 C CNN "Koncar"
 F 9 "T" H 5500 4600 50  0001 C CNN "Side"
 	1    5500 4600
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x07_Female OLED1
+U 1 1 58E6D4AC
+P 4550 1550
+F 0 "OLED1" H 4550 1150 50  0000 C CNN
+F 1 "SSD_1331" H 4550 1050 50  0000 C CNN
+F 2 "oled:oled_13xx" V 4550 1350 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view" H 4550 1350 50  0001 C CNN
+F 4 "www.displaymodule.com" H 4550 1550 60  0001 C CNN "MNF1_URL"
+F 5 "DM-OLEDC095-626" H 4550 1550 60  0001 C CNN "MPN"
+F 6 "www.mouser.com" H 4550 1550 60  0001 C CNN "Mouser_URL"
+F 7 "Leave empty" H 4550 1550 60  0001 C CNN "Note"
+	1    4550 1550
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
